@@ -1,0 +1,754 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0D317D26FB414898BAC7709C /* libPods-FishTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9401796BFEE745CFB06CE544 /* libPods-FishTests.a */; };
+		4D6BA8A5C0BC4DF889AA67EE /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 16FCC57956E24CF3AB72EBCD /* libPods.a */; };
+		9A1A1C0B1973A4C90076CEEB /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9AA72453196D46A80000AC64 /* XCTest.framework */; };
+		9A1A1C0C1973A4C90076CEEB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9AA72434196D46A80000AC64 /* Foundation.framework */; };
+		9A1A1C0D1973A4C90076CEEB /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9AA72438196D46A80000AC64 /* UIKit.framework */; };
+		9A1A1C131973A4C90076CEEB /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 9A1A1C111973A4C90076CEEB /* InfoPlist.strings */; };
+		9A1A1C151973A4C90076CEEB /* Fish_App_Test.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A1A1C141973A4C90076CEEB /* Fish_App_Test.m */; };
+		9A7E1943C5454BD9B695BC48 /* libPods-Fish_App_Test.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6385B785142C43E4ABC72FDF /* libPods-Fish_App_Test.a */; };
+		9AA72435196D46A80000AC64 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9AA72434196D46A80000AC64 /* Foundation.framework */; };
+		9AA72437196D46A80000AC64 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9AA72436196D46A80000AC64 /* CoreGraphics.framework */; };
+		9AA72439196D46A80000AC64 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9AA72438196D46A80000AC64 /* UIKit.framework */; };
+		9AA7243F196D46A80000AC64 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 9AA7243D196D46A80000AC64 /* InfoPlist.strings */; };
+		9AA72441196D46A80000AC64 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AA72440196D46A80000AC64 /* main.m */; };
+		9AA72445196D46A80000AC64 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AA72444196D46A80000AC64 /* AppDelegate.m */; };
+		9AA72448196D46A80000AC64 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9AA72446196D46A80000AC64 /* Main.storyboard */; };
+		9AA7244B196D46A80000AC64 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AA7244A196D46A80000AC64 /* ViewController.m */; };
+		9AA7244D196D46A80000AC64 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9AA7244C196D46A80000AC64 /* Images.xcassets */; };
+		9AA72454196D46A80000AC64 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9AA72453196D46A80000AC64 /* XCTest.framework */; };
+		9AA72455196D46A80000AC64 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9AA72434196D46A80000AC64 /* Foundation.framework */; };
+		9AA72456196D46A80000AC64 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9AA72438196D46A80000AC64 /* UIKit.framework */; };
+		9AA7245E196D46A80000AC64 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 9AA7245C196D46A80000AC64 /* InfoPlist.strings */; };
+		9AA72460196D46A80000AC64 /* FishTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AA7245F196D46A80000AC64 /* FishTests.m */; };
+		9AC96A4B1973B065007A3E57 /* VividTestCase.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AC96A4A1973B065007A3E57 /* VividTestCase.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9A1A1C171973A4C90076CEEB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9AA72429196D46A70000AC64 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9AA72430196D46A70000AC64;
+			remoteInfo = Fish;
+		};
+		9AA72457196D46A80000AC64 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9AA72429196D46A70000AC64 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9AA72430196D46A70000AC64;
+			remoteInfo = Fish;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0760C10D1E18481E92ACF9D6 /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = "<group>"; };
+		10C84C08D0CA47AD8B1C7107 /* Pods-FishTests.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FishTests.xcconfig"; path = "Pods/Pods-FishTests.xcconfig"; sourceTree = "<group>"; };
+		16FCC57956E24CF3AB72EBCD /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		4157FD6B5ADD4E66A2CCECA3 /* Pods-Fish_App_Test.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Fish_App_Test.xcconfig"; path = "Pods/Pods-Fish_App_Test.xcconfig"; sourceTree = "<group>"; };
+		6385B785142C43E4ABC72FDF /* libPods-Fish_App_Test.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Fish_App_Test.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9401796BFEE745CFB06CE544 /* libPods-FishTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-FishTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9A1A1C0A1973A4C90076CEEB /* Fish_App_Test.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Fish_App_Test.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9A1A1C101973A4C90076CEEB /* Fish_App_Test-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Fish_App_Test-Info.plist"; sourceTree = "<group>"; };
+		9A1A1C121973A4C90076CEEB /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		9A1A1C141973A4C90076CEEB /* Fish_App_Test.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Fish_App_Test.m; sourceTree = "<group>"; };
+		9A1A1C161973A4C90076CEEB /* Fish_App_Test-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Fish_App_Test-Prefix.pch"; sourceTree = "<group>"; };
+		9AA72431196D46A70000AC64 /* Fish.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Fish.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9AA72434196D46A80000AC64 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		9AA72436196D46A80000AC64 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		9AA72438196D46A80000AC64 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		9AA7243C196D46A80000AC64 /* Fish-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Fish-Info.plist"; sourceTree = "<group>"; };
+		9AA7243E196D46A80000AC64 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		9AA72440196D46A80000AC64 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		9AA72442196D46A80000AC64 /* Fish-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Fish-Prefix.pch"; sourceTree = "<group>"; };
+		9AA72443196D46A80000AC64 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		9AA72444196D46A80000AC64 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		9AA72447196D46A80000AC64 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9AA72449196D46A80000AC64 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		9AA7244A196D46A80000AC64 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		9AA7244C196D46A80000AC64 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		9AA72452196D46A80000AC64 /* FishTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FishTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9AA72453196D46A80000AC64 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		9AA7245B196D46A80000AC64 /* FishTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "FishTests-Info.plist"; sourceTree = "<group>"; };
+		9AA7245D196D46A80000AC64 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		9AA7245F196D46A80000AC64 /* FishTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FishTests.m; sourceTree = "<group>"; };
+		9AC96A4A1973B065007A3E57 /* VividTestCase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VividTestCase.m; sourceTree = "<group>"; };
+		FE936954A6154F23AADBDDDB /* Pods-Fish.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Fish.xcconfig"; path = "Pods/Pods-Fish.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9A1A1C071973A4C90076CEEB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9A1A1C0B1973A4C90076CEEB /* XCTest.framework in Frameworks */,
+				9A1A1C0D1973A4C90076CEEB /* UIKit.framework in Frameworks */,
+				9A1A1C0C1973A4C90076CEEB /* Foundation.framework in Frameworks */,
+				9A7E1943C5454BD9B695BC48 /* libPods-Fish_App_Test.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9AA7242E196D46A70000AC64 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9AA72437196D46A80000AC64 /* CoreGraphics.framework in Frameworks */,
+				9AA72439196D46A80000AC64 /* UIKit.framework in Frameworks */,
+				9AA72435196D46A80000AC64 /* Foundation.framework in Frameworks */,
+				4D6BA8A5C0BC4DF889AA67EE /* libPods.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9AA7244F196D46A80000AC64 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9AA72454196D46A80000AC64 /* XCTest.framework in Frameworks */,
+				9AA72456196D46A80000AC64 /* UIKit.framework in Frameworks */,
+				9AA72455196D46A80000AC64 /* Foundation.framework in Frameworks */,
+				0D317D26FB414898BAC7709C /* libPods-FishTests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9A1A1C0E1973A4C90076CEEB /* Fish_App_Test */ = {
+			isa = PBXGroup;
+			children = (
+				9A1A1C141973A4C90076CEEB /* Fish_App_Test.m */,
+				9AC96A4A1973B065007A3E57 /* VividTestCase.m */,
+				9A1A1C0F1973A4C90076CEEB /* Supporting Files */,
+			);
+			path = Fish_App_Test;
+			sourceTree = "<group>";
+		};
+		9A1A1C0F1973A4C90076CEEB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				9A1A1C101973A4C90076CEEB /* Fish_App_Test-Info.plist */,
+				9A1A1C111973A4C90076CEEB /* InfoPlist.strings */,
+				9A1A1C161973A4C90076CEEB /* Fish_App_Test-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		9AA72428196D46A70000AC64 = {
+			isa = PBXGroup;
+			children = (
+				9AA7243A196D46A80000AC64 /* Fish */,
+				9AA72459196D46A80000AC64 /* FishTests */,
+				9A1A1C0E1973A4C90076CEEB /* Fish_App_Test */,
+				9AA72433196D46A70000AC64 /* Frameworks */,
+				9AA72432196D46A70000AC64 /* Products */,
+				0760C10D1E18481E92ACF9D6 /* Pods.xcconfig */,
+				FE936954A6154F23AADBDDDB /* Pods-Fish.xcconfig */,
+				10C84C08D0CA47AD8B1C7107 /* Pods-FishTests.xcconfig */,
+				4157FD6B5ADD4E66A2CCECA3 /* Pods-Fish_App_Test.xcconfig */,
+			);
+			sourceTree = "<group>";
+		};
+		9AA72432196D46A70000AC64 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9AA72431196D46A70000AC64 /* Fish.app */,
+				9AA72452196D46A80000AC64 /* FishTests.xctest */,
+				9A1A1C0A1973A4C90076CEEB /* Fish_App_Test.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9AA72433196D46A70000AC64 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9AA72434196D46A80000AC64 /* Foundation.framework */,
+				9AA72436196D46A80000AC64 /* CoreGraphics.framework */,
+				9AA72438196D46A80000AC64 /* UIKit.framework */,
+				9AA72453196D46A80000AC64 /* XCTest.framework */,
+				16FCC57956E24CF3AB72EBCD /* libPods.a */,
+				9401796BFEE745CFB06CE544 /* libPods-FishTests.a */,
+				6385B785142C43E4ABC72FDF /* libPods-Fish_App_Test.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9AA7243A196D46A80000AC64 /* Fish */ = {
+			isa = PBXGroup;
+			children = (
+				9AA72443196D46A80000AC64 /* AppDelegate.h */,
+				9AA72444196D46A80000AC64 /* AppDelegate.m */,
+				9AA72446196D46A80000AC64 /* Main.storyboard */,
+				9AA72449196D46A80000AC64 /* ViewController.h */,
+				9AA7244A196D46A80000AC64 /* ViewController.m */,
+				9AA7244C196D46A80000AC64 /* Images.xcassets */,
+				9AA7243B196D46A80000AC64 /* Supporting Files */,
+			);
+			path = Fish;
+			sourceTree = "<group>";
+		};
+		9AA7243B196D46A80000AC64 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				9AA7243C196D46A80000AC64 /* Fish-Info.plist */,
+				9AA7243D196D46A80000AC64 /* InfoPlist.strings */,
+				9AA72440196D46A80000AC64 /* main.m */,
+				9AA72442196D46A80000AC64 /* Fish-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		9AA72459196D46A80000AC64 /* FishTests */ = {
+			isa = PBXGroup;
+			children = (
+				9AA7245F196D46A80000AC64 /* FishTests.m */,
+				9AA7245A196D46A80000AC64 /* Supporting Files */,
+			);
+			path = FishTests;
+			sourceTree = "<group>";
+		};
+		9AA7245A196D46A80000AC64 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				9AA7245B196D46A80000AC64 /* FishTests-Info.plist */,
+				9AA7245C196D46A80000AC64 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9A1A1C091973A4C90076CEEB /* Fish_App_Test */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9A1A1C1B1973A4C90076CEEB /* Build configuration list for PBXNativeTarget "Fish_App_Test" */;
+			buildPhases = (
+				D9CE90EC98B4436EA333FD88 /* Check Pods Manifest.lock */,
+				9A1A1C061973A4C90076CEEB /* Sources */,
+				9A1A1C071973A4C90076CEEB /* Frameworks */,
+				9A1A1C081973A4C90076CEEB /* Resources */,
+				744FD2661F3041CB93BE54AE /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9A1A1C181973A4C90076CEEB /* PBXTargetDependency */,
+			);
+			name = Fish_App_Test;
+			productName = Fish_App_Test;
+			productReference = 9A1A1C0A1973A4C90076CEEB /* Fish_App_Test.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		9AA72430196D46A70000AC64 /* Fish */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9AA72463196D46A80000AC64 /* Build configuration list for PBXNativeTarget "Fish" */;
+			buildPhases = (
+				5EFFFD4D96044B92958697F5 /* Check Pods Manifest.lock */,
+				9AA7242D196D46A70000AC64 /* Sources */,
+				9AA7242E196D46A70000AC64 /* Frameworks */,
+				9AA7242F196D46A70000AC64 /* Resources */,
+				DA1CB41636ED4B0E9B895970 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Fish;
+			productName = Fish;
+			productReference = 9AA72431196D46A70000AC64 /* Fish.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9AA72451196D46A80000AC64 /* FishTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9AA72466196D46A80000AC64 /* Build configuration list for PBXNativeTarget "FishTests" */;
+			buildPhases = (
+				11FAD603B894470DAC2CF822 /* Check Pods Manifest.lock */,
+				9AA7244E196D46A80000AC64 /* Sources */,
+				9AA7244F196D46A80000AC64 /* Frameworks */,
+				9AA72450196D46A80000AC64 /* Resources */,
+				132BDD9C322A469D91E58718 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9AA72458196D46A80000AC64 /* PBXTargetDependency */,
+			);
+			name = FishTests;
+			productName = FishTests;
+			productReference = 9AA72452196D46A80000AC64 /* FishTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9AA72429196D46A70000AC64 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "yhl10000@gmail.com";
+				TargetAttributes = {
+					9A1A1C091973A4C90076CEEB = {
+						TestTargetID = 9AA72430196D46A70000AC64;
+					};
+					9AA72451196D46A80000AC64 = {
+						TestTargetID = 9AA72430196D46A70000AC64;
+					};
+				};
+			};
+			buildConfigurationList = 9AA7242C196D46A70000AC64 /* Build configuration list for PBXProject "Fish" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9AA72428196D46A70000AC64;
+			productRefGroup = 9AA72432196D46A70000AC64 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9AA72430196D46A70000AC64 /* Fish */,
+				9AA72451196D46A80000AC64 /* FishTests */,
+				9A1A1C091973A4C90076CEEB /* Fish_App_Test */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9A1A1C081973A4C90076CEEB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9A1A1C131973A4C90076CEEB /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9AA7242F196D46A70000AC64 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9AA7244D196D46A80000AC64 /* Images.xcassets in Resources */,
+				9AA7243F196D46A80000AC64 /* InfoPlist.strings in Resources */,
+				9AA72448196D46A80000AC64 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9AA72450196D46A80000AC64 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9AA7245E196D46A80000AC64 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		11FAD603B894470DAC2CF822 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		132BDD9C322A469D91E58718 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-FishTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5EFFFD4D96044B92958697F5 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		744FD2661F3041CB93BE54AE /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-Fish_App_Test-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D9CE90EC98B4436EA333FD88 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		DA1CB41636ED4B0E9B895970 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-Fish-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9A1A1C061973A4C90076CEEB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9AC96A4B1973B065007A3E57 /* VividTestCase.m in Sources */,
+				9A1A1C151973A4C90076CEEB /* Fish_App_Test.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9AA7242D196D46A70000AC64 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9AA7244B196D46A80000AC64 /* ViewController.m in Sources */,
+				9AA72445196D46A80000AC64 /* AppDelegate.m in Sources */,
+				9AA72441196D46A80000AC64 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9AA7244E196D46A80000AC64 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9AA72460196D46A80000AC64 /* FishTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9A1A1C181973A4C90076CEEB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9AA72430196D46A70000AC64 /* Fish */;
+			targetProxy = 9A1A1C171973A4C90076CEEB /* PBXContainerItemProxy */;
+		};
+		9AA72458196D46A80000AC64 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9AA72430196D46A70000AC64 /* Fish */;
+			targetProxy = 9AA72457196D46A80000AC64 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		9A1A1C111973A4C90076CEEB /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9A1A1C121973A4C90076CEEB /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		9AA7243D196D46A80000AC64 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9AA7243E196D46A80000AC64 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		9AA72446196D46A80000AC64 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9AA72447196D46A80000AC64 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		9AA7245C196D46A80000AC64 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9AA7245D196D46A80000AC64 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9A1A1C191973A4C90076CEEB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4157FD6B5ADD4E66A2CCECA3 /* Pods-Fish_App_Test.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Fish.app/Fish";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Fish_App_Test/Fish_App_Test-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Fish_App_Test/Fish_App_Test-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		9A1A1C1A1973A4C90076CEEB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4157FD6B5ADD4E66A2CCECA3 /* Pods-Fish_App_Test.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Fish.app/Fish";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Fish_App_Test/Fish_App_Test-Prefix.pch";
+				INFOPLIST_FILE = "Fish_App_Test/Fish_App_Test-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+		9AA72461196D46A80000AC64 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		9AA72462196D46A80000AC64 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9AA72464196D46A80000AC64 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FE936954A6154F23AADBDDDB /* Pods-Fish.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Fish/Fish-Prefix.pch";
+				INFOPLIST_FILE = "Fish/Fish-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				USER_HEADER_SEARCH_PATHS = "$(BUILT_PRODUCTS_DIR)/**";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		9AA72465196D46A80000AC64 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FE936954A6154F23AADBDDDB /* Pods-Fish.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Fish/Fish-Prefix.pch";
+				INFOPLIST_FILE = "Fish/Fish-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				USER_HEADER_SEARCH_PATHS = "$(BUILT_PRODUCTS_DIR)/**";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		9AA72467196D46A80000AC64 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 10C84C08D0CA47AD8B1C7107 /* Pods-FishTests.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Fish.app/Fish";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Fish/Fish-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "FishTests/FishTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		9AA72468196D46A80000AC64 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 10C84C08D0CA47AD8B1C7107 /* Pods-FishTests.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Fish.app/Fish";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Fish/Fish-Prefix.pch";
+				INFOPLIST_FILE = "FishTests/FishTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9A1A1C1B1973A4C90076CEEB /* Build configuration list for PBXNativeTarget "Fish_App_Test" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9A1A1C191973A4C90076CEEB /* Debug */,
+				9A1A1C1A1973A4C90076CEEB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9AA7242C196D46A70000AC64 /* Build configuration list for PBXProject "Fish" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9AA72461196D46A80000AC64 /* Debug */,
+				9AA72462196D46A80000AC64 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9AA72463196D46A80000AC64 /* Build configuration list for PBXNativeTarget "Fish" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9AA72464196D46A80000AC64 /* Debug */,
+				9AA72465196D46A80000AC64 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9AA72466196D46A80000AC64 /* Build configuration list for PBXNativeTarget "FishTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9AA72467196D46A80000AC64 /* Debug */,
+				9AA72468196D46A80000AC64 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9AA72429196D46A70000AC64 /* Project object */;
+}
