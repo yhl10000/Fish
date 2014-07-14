@@ -1,5 +1,6 @@
 language: objective-c
 before_install:
      - brew update
+     - brew upgrade xctool
      - gem update cocoapods
 script: xctool -workspace Fish.xcworkspace -scheme Fish -sdk iphonesimulator   test
