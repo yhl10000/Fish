@@ -18,6 +18,8 @@ before_install:
      - brew update
      - brew upgrade xctool
      - gem update cocoapods
+     - chmod +x scripts/travis/add-key.sh
+     - chmod +x scripts/travis/remove-key.sh
 script: xctool -workspace Fish.xcworkspace -scheme Fish -sdk iphonesimulator   test
 
   
