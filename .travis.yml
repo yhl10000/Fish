@@ -1,15 +1,15 @@
 language: objective-c
 rvm: 2.1.1
 before_script:
-  - chmod +x scripts/travis/add-key.sh
-  - chmod +x scripts/travis/remove-key.sh
-  - chmod +x scripts/travis/testflight.sh
-  - chmod +x scripts/travis/run_scripts.sh
-  - ./scripts/travis/add-key.sh
+- chmod +x scripts/travis/add-key.sh
+- chmod +x scripts/travis/remove-key.sh
+- chmod +x scripts/travis/testflight.sh
+- chmod +x scripts/travis/run_scripts.sh
+- ./scripts/travis/add-key.sh
 after_script:
-  - ./scripts/travis/remove-key.sh
+- ./scripts/travis/remove-key.sh
 after_success:
-  - ./scripts/travis/testflight.sh
+- ./scripts/travis/testflight.sh
 env:
   global:
   - APPNAME="Fish"
@@ -18,11 +18,9 @@ env:
   - secure: CShUK03Eej96YtNP5dfmOoQG8UBDgjg0Oss60CqObcW6Jg/aWxYeEeviTxK42Gj6fbAHZ/NNIh1+Hx3aICwlgL0bTTrsEvZoMTl5T6/m3CpHlLexysVSgU2WRSvkK7G+fGqw/05m98u93s1VMfaxvsPqvqf+TBgM57ifnlFqhYg=
   - secure: a9hqpiJ3k0lOTP+OYuxVypufcbVMHzRKnGBdAIaUjile092BuUlgcmK3mB2T6WLKu37kS5YQfQMX4b+3Q+bt+VKtRV2vCOQPIycS1Mq/JTSWKIhfmzt3Jx+8J69cJs0WI84SS6O3J+gzmBPMUBKqIkUydrYaY01NnLmT4OKauN8=
   - secure: Y1vs/wgC3INt60gKC4qaJhg16EFkq7rdwSbAwk95ygjhIdW/p2OMCKoZWDLqF39J5d+yudYvSo4xuOwCWKYObtK4cA6uU8EMH4dbanckM252+CiC7+gewm0pSTOFz71wQuKNreTDTjw6fbx8/H2wMhuJC6mCoSZj58xZD9uOhWY=
+  - secure: mEzKH8UQHum/hh7v2Dpry7Tt9q2OGuaO3qmaVRt67/ErG0jjzW5ncomVXnPEiHbjw6uehRb6zRguQ2VhhVYW8cUrtFDt5CHzoEyQT5OvFUh362AfHqPScu0F45tAvlovXeBEAF4ycSZfvufb/j2iKZIBld4GaKX37sY0L6dpyc0=
 before_install:
-     - brew update
-     - brew upgrade xctool
-     - gem update cocoapods
+- brew update
+- brew upgrade xctool
+- gem update cocoapods
 script: ./scripts/travis/run_scripts.sh
-
-
-  
