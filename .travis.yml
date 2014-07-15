@@ -1,4 +1,15 @@
 language: objective-c
+before_script:
+- ./scripts/travis/add-key.sh
+after_script:
+- ./scripts/travis/remove-key.sh
+after_success:
+- ./scripts/travis/testflight.sh
+env:
+  global:
+  - APPNAME="Fish"
+  - 'DEVELOPER_NAME="iPhone Distribution: Movitech Co.,Ltd"'
+  - PROFILE_UUID=B97CD118-B9F5-4121-A2FF-4D51ADC2E90A
 before_install:
      - brew update
      - brew upgrade xctool
