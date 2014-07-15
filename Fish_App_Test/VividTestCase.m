@@ -36,7 +36,7 @@
     [super tearDown];
 }
 
-- (void)testAuthorName
+- (void)testAuthorName2
 {
     //XCTFail(@"No implementation for \"%s\"", __PRETTY_FUNCTION__);
     
