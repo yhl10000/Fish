@@ -21,8 +21,6 @@ before_install:
      - brew update
      - brew upgrade xctool
      - gem update cocoapods
-script: 
-	xctool -workspace Fish.xcworkspace -scheme Fish -sdk iphonesimulator   test
-	xctool -workspace Fish.xcworkspace.xcworkspace -scheme Fish -configuration Release -sdk iphoneos CONFIGURATION_BUILD_DIR='~/build/' build
+script: script: ./scripts/travis/run_scripts.sh
 
   
