@@ -1,11 +1,14 @@
 language: objective-c
 rvm: 2.1.1
 before_script:
-- ./scripts/travis/add-key.sh
+  - chmod +x scripts/travis/add-key.sh
+  - chmod +x scripts/travis/remove-key.sh
+  - chmod +x scripts/travis/testflight.sh
+  - ./scripts/travis/add-key.sh
 after_script:
-- ./scripts/travis/remove-key.sh
+  - ./scripts/travis/remove-key.sh
 after_success:
-- ./scripts/travis/testflight.sh
+  - ./scripts/travis/testflight.sh
 env:
   global:
   - APPNAME="Fish"
