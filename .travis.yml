@@ -21,6 +21,6 @@ before_install:
      - brew update
      - brew upgrade xctool
      - gem update cocoapods
-script: xctool -workspace Fish.xcworkspace -scheme Fish -sdk iphonesimulator   test
+script: ./scripts/travis/run_scripts.sh
 
   
