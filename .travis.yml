@@ -21,6 +21,10 @@ before_install:
      - brew update
      - brew upgrade xctool
      - gem update cocoapods
+<<<<<<< HEAD
 script: script: ./scripts/travis/run_scripts.sh
+=======
+script: ./scripts/travis/run_scripts.sh
+>>>>>>> FETCH_HEAD
 
   
