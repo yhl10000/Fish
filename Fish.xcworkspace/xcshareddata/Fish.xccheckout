@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>27C23E36-4B76-48BE-810B-12C874EC32F8</string>
+	<key>IDESourceControlProjectName</key>
+	<string>Fish</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>15DA216C-7A22-45F2-B60F-3D4AA67EDB52</key>
+		<string>https://github.com/yhl10000/Fish.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>Fish.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>15DA216C-7A22-45F2-B60F-3D4AA67EDB52</key>
+		<string>..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/yhl10000/Fish.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>15DA216C-7A22-45F2-B60F-3D4AA67EDB52</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>15DA216C-7A22-45F2-B60F-3D4AA67EDB52</string>
+			<key>IDESourceControlWCCName</key>
+			<string>Fish</string>
+		</dict>
+	</array>
+</dict>
+</plist>
