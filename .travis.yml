@@ -4,6 +4,7 @@ before_script:
   - chmod +x scripts/travis/add-key.sh
   - chmod +x scripts/travis/remove-key.sh
   - chmod +x scripts/travis/testflight.sh
+  - chmod +x scripts/travis/run_scripts.sh
   - ./scripts/travis/add-key.sh
 after_script:
   - ./scripts/travis/remove-key.sh
