@@ -9,7 +9,7 @@ after_success:
 env:
   global:
   - APPNAME="Fish"
-  - 'DEVELOPER_NAME="iPhone Distribution: Movitech Co.,Ltd"'
+  - DEVELOPER_NAME="iPhone Distribution: Movitech Co.,Ltd"
   - PROFILE_UUID=B97CD118-B9F5-4121-A2FF-4D51ADC2E90A
   - secure: CShUK03Eej96YtNP5dfmOoQG8UBDgjg0Oss60CqObcW6Jg/aWxYeEeviTxK42Gj6fbAHZ/NNIh1+Hx3aICwlgL0bTTrsEvZoMTl5T6/m3CpHlLexysVSgU2WRSvkK7G+fGqw/05m98u93s1VMfaxvsPqvqf+TBgM57ifnlFqhYg=
   - secure: a9hqpiJ3k0lOTP+OYuxVypufcbVMHzRKnGBdAIaUjile092BuUlgcmK3mB2T6WLKu37kS5YQfQMX4b+3Q+bt+VKtRV2vCOQPIycS1Mq/JTSWKIhfmzt3Jx+8J69cJs0WI84SS6O3J+gzmBPMUBKqIkUydrYaY01NnLmT4OKauN8=
