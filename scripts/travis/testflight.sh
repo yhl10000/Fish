@@ -32,11 +32,11 @@ echo "$TEAM_TOKEN"
 echo "$RELEASE_NOTES"
 echo $DISTRIBUTION_LISTS
 echo "********************"
-curl http://testflightapp.com/api/builds.json 
-  -F file="@$OUTPUTDIR/$APPNAME.ipa" 
-  -F dsym="@$OUTPUTDIR/$APPNAME.app.dSYM.zip" 
-  -F api_token="$API_TOKEN" 
-  -F team_token="$TEAM_TOKEN" 
-  -F distribution_lists=$DISTRIBUTION_LISTS 
-  -F notes="$RELEASE_NOTES" -v 
+curl http://testflightapp.com/api/builds.json \
+  -F file="@$OUTPUTDIR/$APPNAME.ipa" \
+  -F dsym="@$OUTPUTDIR/$APPNAME.app.dSYM.zip" \
+  -F api_token="$API_TOKEN" \
+  -F team_token="$TEAM_TOKEN" \
+  -F distribution_lists=$DISTRIBUTION_LISTS \
+  -F notes="$RELEASE_NOTES" -v \
   -F notify="FALSE"
