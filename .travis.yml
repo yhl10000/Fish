@@ -21,6 +21,6 @@ env:
 before_install:
 - brew update
 - brew upgrade xctool
-- gem update cocoapods -v '0.32.1'
+- gem install cocoapods -v '0.32.1'
 
 script: ./scripts/travis/run_scripts.sh
