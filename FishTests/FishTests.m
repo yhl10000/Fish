@@ -29,7 +29,7 @@
     [super tearDown];
 }
 
-- (void)testExample
+- (void)testlowercaseString
 {
     
     id mockObject = [OCMockObject mockForClass:NSString.class];
